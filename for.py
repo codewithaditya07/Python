@@ -56,15 +56,35 @@
 # print(count)
 
 # Write a program to count the number of positive and negative numbers in a list.
-numbers = [-10, 15, -20, 25, -5, 30]
-positive_count = 0
-negative_count = 0
-for i in numbers:
-    if (i<0):
-        print("Negative Numbers are : " , i)
-        negative_count +=1
-    else:
-        print("Positive numbers are : " , i)
-        positive_count +=1
-print("Positive counts are : " , positive_count)
-print("Negative counts are : " , negative_count)
+# numbers = [-10, 15, -20, 25, -5, 30]
+# positive_count = 0
+# negative_count = 0
+# for i in numbers:
+#     if (i<0):
+#         print("Negative Numbers are : " , i)
+#         negative_count +=1
+#     else:
+#         print("Positive numbers are : " , i)
+#         positive_count +=1
+# print("Positive counts are : " , positive_count)
+# print("Negative counts are : " , negative_count)
+
+#Question:- A company insures its drivers in the following cases 
+# If the driver is married
+# If the driver is unmarried , male and above 30 years of age
+# If the driver is unmarried , female and above 25 years of age
+# In all the cases , the driver is not insured. If the martial status,sex and age as a input, write a program to determie whether the driver should be insured or not
+
+print("Enter Every Input in lowercase")
+Martial_status = input("Enter Your Martial Status : ")
+Gender = input("Enter Your Gender : ")
+Age = int(input("Enter Your Age : "))
+
+if ((Martial_status == "unmarried" or "u") and (Gender =="male" or "m") and (Age > 30)):
+    print("You are insured")
+elif ((Martial_status == "unmarried" or "u") and (Gender =="female" or "f") and (Age > 25)):
+    print("You Are insured")
+elif (Martial_status == "married" or "m"):
+    print("You are Insured")
+else:
+    print("Your are not insured")
