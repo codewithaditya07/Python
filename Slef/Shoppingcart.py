@@ -1,4 +1,4 @@
-# shopping cart program
+# shopping cart
 foods = []
 prices = []
 total = 0
