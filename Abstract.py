@@ -42,3 +42,35 @@ print(car.stop_engine())
 motorcycle = Motorcycle("Yamaha")
 print(motorcycle.start_engine()) 
 print(motorcycle.stop_engine()) 
+
+
+from abc import ABC, abstractmethod
+
+# Define an abstract class
+class Animal(ABC):
+    
+    # Abstract method
+    @abstractmethod
+    def sound(self):
+        pass
+    
+    # Regular method
+    def move(self):
+        print("The animal is moving")
+
+class Dog(Animal):
+    
+    def sound(self):
+        print("Woof!")
+
+class Cat(Animal):
+
+    def sound(self):
+        print("Meow!")
+
+
+dog = Dog()
+cat = Cat()
+
+dog.sound()  
+
