@@ -86,9 +86,6 @@
 #       print(num, end = " ")
 #    print()  
 
-
-
-#  
  
 
 # importing Required modules
