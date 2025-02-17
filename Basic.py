@@ -8,16 +8,24 @@
 # print(multiply)
 # print(add)
 
-def multiply_or_sum(num1,num2):
-    product = num1*num2
-    if product <= 1000:
-     return product
-    else:
-      return num1 + num2
+# def multiply_or_sum(num1,num2):
+#     product = num1*num2
+#     if product <= 1000:
+#      return product
+#     else:
+#       return num1 + num2
     
-result = multiply_or_sum(20,30)
-print("the result is ",result) 
+# result = multiply_or_sum(20,30)
+# print("the result is ",result) 
 
-result = multiply_or_sum(30,40)
-print("the result is ",result) 
+# result = multiply_or_sum(30,40)
+# print("the result is ",result) 
     
+
+# Exercise 2: Print the Sum of a Current Number and a Previous number
+print("Printing current and previous number and their sum in a range(10)")
+previous_num = 0
+for i in range(1, 11):
+    x_sum = previous_num + i
+    print("Current Number", i, "Previous Number ", previous_num, " Sum: ", x_sum)
+    previous_num = i
