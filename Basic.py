@@ -23,9 +23,18 @@
     
 
 # Exercise 2: Print the Sum of a Current Number and a Previous number
-print("Printing current and previous number and their sum in a range(10)")
-previous_num = 0
-for i in range(1, 11):
-    x_sum = previous_num + i
-    print("Current Number", i, "Previous Number ", previous_num, " Sum: ", x_sum)
-    previous_num = i
+# print("Printing current and previous number and their sum in a range(10)")
+# previous_num = 0
+# for i in range(1, 11):
+#     x_sum = previous_num + i
+#     print("Current Number", i, "Previous Number ", previous_num, " Sum: ", x_sum)
+#     previous_num = i
+
+# Exercise 3: Print characters present at an even index number
+
+word=input('input string:-')
+print("Original String:", word)
+size=len(word)
+print("print only even index chars")
+for i in range (0,size -1,2):
+    print("index[",i,"]",word[i])
