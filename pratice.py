@@ -32,9 +32,19 @@
 
 # Exercise 3: Print characters present at an even index number
 
-word=input('input string:-')
-print("Original String:", word)
-size=len(word)
-print("print only even index chars")
-for i in range (0,size -1,2):
-    print("index[",i,"]",word[i])
+# word=input('input string:-')
+# print("Original String:", word)
+# size=len(word)
+# print("print only even index chars")
+# for i in range (0,size -1,2):
+#     print("index[",i,"]",word[i])
+
+# Exercise 4: Remove first n characters from a string
+
+def remove_chars(word,n):
+    print("original string ",word)
+    x = word[n:]
+    return x
+print("Removing characters from a string")
+print(remove_chars("aditya",4))
+print(remove_chars("parth",2))

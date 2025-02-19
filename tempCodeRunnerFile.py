@@ -1,11 +1,7 @@
+import datetime
 
+# Print date and time
+print(datetime.datetime.now())
 
-import random
-import string
-
-chars = " " + string.punctuation + string.digits + string.ascii_letters
-chars =list(chars)
-key = chars.copy()
-
-print( f" chars :{chars}")
-print( f" keys :{key}")
+# only time
+print(datetime.datetime.now().time())
