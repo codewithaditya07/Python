@@ -41,10 +41,28 @@
 
 # Exercise 4: Remove first n characters from a string
 
-def remove_chars(word,n):
-    print("original string ",word)
-    x = word[n:]
-    return x
-print("Removing characters from a string")
-print(remove_chars("aditya",4))
-print(remove_chars("parth",2))
+# def remove_chars(word,n):
+#     print("original string ",word)
+#     x = word[n:]
+#     return x
+# print("Removing characters from a string")
+# print(remove_chars("aditya",4))
+# print(remove_chars("parth",2))
+
+# Exercise 5: Check if the first and last numbers of a list are the same
+def first_last_same(numberList):
+    print("Given list:", numberList)
+    
+    first_num = numberList[0]
+    last_num = numberList[-1]
+    
+    if first_num == last_num:
+        return True
+    else:
+        return False
+
+numbers_x = [10, 20, 30, 40, 10]
+print("result is", first_last_same(numbers_x))
+
+numbers_y = [75, 65, 35, 75, 30]
+print("result is", first_last_same(numbers_y))
