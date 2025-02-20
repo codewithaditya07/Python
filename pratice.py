@@ -50,19 +50,48 @@
 # print(remove_chars("parth",2))
 
 # Exercise 5: Check if the first and last numbers of a list are the same
-def first_last_same(numberList):
-    print("Given list:", numberList)
+# def first_last_same(numberList):
+#     print("Given list:", numberList)
     
-    first_num = numberList[0]
-    last_num = numberList[-1]
+#     first_num = numberList[0]
+#     last_num = numberList[-1]
     
-    if first_num == last_num:
-        return True
-    else:
-        return False
+#     if first_num == last_num:
+#         return True
+#     else:
+#         return False
 
-numbers_x = [10, 20, 30, 40, 10]
-print("result is", first_last_same(numbers_x))
+# numbers_x = [10, 20, 30, 40, 10]
+# print("result is", first_last_same(numbers_x))
 
-numbers_y = [75, 65, 35, 75, 30]
-print("result is", first_last_same(numbers_y))
+# numbers_y = [75, 65, 35, 75, 30]
+# print("result is", first_last_same(numbers_y))
+
+
+# Exercise 6: Display numbers divisible by 5
+# lst = [10, 20, 33, 46, 55]
+# print("Given Numbers:- ",lst)
+# for i in lst:
+#     if(i%5 == 0):
+#         print("Display by 5 :-",i)
+    
+
+# Exercise 7: Find the number of occurrences of a substring in a string
+# word = "Emma is good developer. Emma is a writer"
+# cc = word.count("Emma")
+# print(cc)
+
+# Exercise 8: Print the following pattern
+# 1 
+# 2 2 
+# 3 3 3 
+# 4 4 4 4 
+# 5 5 5 5 5
+# for num in range(6):
+#     for i in range(num):
+#         print (num, end=" ") 
+#     print("\n")
+
+
+# Exercise 9: Check Palindrome Number
+# Exercise 10: Merge two lists using the following condition
