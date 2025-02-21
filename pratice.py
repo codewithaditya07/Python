@@ -94,4 +94,21 @@
 
 
 # Exercise 9: Check Palindrome Number
+# str = 'mom'
+
+# if str[:] == str[-1:]:
+#     print("palindrome")
+# else: 
+#    print("not a palindrome")
 # Exercise 10: Merge two lists using the following condition
+# def merge_list (lst1,lst2):
+#     result_list = []
+# list1 = [10, 20, 25, 30, 35]
+# list2 = [40, 45, 60, 75, 90]
+# odd_from_list1 = [x for x in list1 if x % 2 != 0]
+# even_from_list2 = [x for x in list2 if x % 2 == 0]
+# new_list = odd_from_list1 + even_from_list2
+
+# print(new_list)
+
+# Exercise 11: Get each digit from a number in the reverse order.
