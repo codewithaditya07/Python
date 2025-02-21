@@ -112,3 +112,64 @@
 # print(new_list)
 
 # Exercise 11: Get each digit from a number in the reverse order.
+# Number = int(input("Enter any number to reverse :-"))
+# while Number > 0:
+#   digit = Number % 10
+#   Number  = Number // 10
+#   print(digit,end="")
+
+# Exercise 12: Calculate income tax
+# Calculate income tax for the given income by adhering to the rules below
+# Taxable  Income 	  Rate (in %)
+# First    $10,000	    0
+# Next    $10,000	    10
+# The     remaining	    20
+
+# income = int(input("Enter the income:- "))
+# tax_payable = 0
+
+# if income <= 10000:
+#     tax_payable = 0
+# elif income <= 20000:
+#     x = income - 10000
+#     tax_payable = x * 10 / 100
+# else:
+#     tax_payable = 0
+#     tax_payable = 10000 * 10 / 100
+#     tax_payable += (income - 20000) * 20 / 100
+# print("Total tax to pay is",tax_payable)
+
+# Exercise 13: Print multiplication table from 1 to 10
+# for i in range (1,11):
+#     for j in range(1,11):
+#         print(i * j, end=" ")
+#     print("\t\t")
+
+# Exercise 14: Print a downward half-pyramid pattern of stars
+# * * * * *  
+# * * * *  
+# * * *  
+# * *  
+# *
+
+# for num in range(6,0,-1):
+#     for i in range(0,num -1):
+#         print ("*", end=" ") 
+#     print(" ")
+
+# Exercise 15: Get an int value of base raises to the power of exponent
+# 1st method
+# def exponent (base,exp):
+#     num = exp
+#     result = 1
+#     while num > 0 :
+#         result = result * base 
+#         num = num - 1
+#     print(base,"power of",exp,"is:",result)
+# exponent(2,2)
+
+# 2nd method
+base = int(input("Enter the base: "))
+exponent = int(input("Enter the exponent: "))
+result = pow(base, exponent)
+print(f"{base} raised to the power of {exponent} is {result}")
