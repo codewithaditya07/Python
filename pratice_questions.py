@@ -1,4 +1,4 @@
-# 1️, Reverse a String Without Using [::-1]
+# 1️. Reverse a String Without Using [::-1]
 # Problem: Write a function to reverse a string manually.
 
 # def reverse_string(s):

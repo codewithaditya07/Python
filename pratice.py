@@ -152,10 +152,15 @@
 # * *  
 # *
 
-# for num in range(6,0,-1):
-#     for i in range(0,num -1):
-#         print ("*", end=" ") 
-#     print(" ")
+# i = 5
+# while i >=0:
+#     print(i * "*")
+#     i = i - 1
+
+for i in range (5):
+    if i >=0:
+        print(i * "*")
+        i = i -1
 
 # Exercise 15: Get an int value of base raises to the power of exponent
 # 1st method
