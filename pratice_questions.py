@@ -69,9 +69,6 @@
 # 7️. Check if a String is a Palindrome
 # Problem: Write a function to check if a string is a palindrome (same forward and backward).
 
-# python
-# Copy
-# Edit
 # def is_palindrome(s):
 #     return s == s[::-1]
 
