@@ -108,3 +108,28 @@ print(MathOperations.add(3, 4))  # Output: 7
 print(MathOperations.info())     # Output: This is a MathOperations class
 
 
+# bank
+class Account:
+    def __init__(self,bal,acc):
+        self.balance = bal
+        self.account_no = acc
+    
+    def debit(self,ammout):
+        self.balance  -= ammout
+        print("Rs:(-)",ammout ,"is debited")
+        print("total balance =",self.get_balance())
+
+
+    def credit(self,ammout):
+        self.balance += ammout
+        print("Rs:(+)",ammout ,"is credited")
+        print("total balance =",self.get_balance())
+
+    def get_balance(self):
+          return self.balance 
+    
+account1 = Account(8000,5050555)
+print("Account balance =", account1.get_balance())
+account1.debit(600)
+account1.credit(2600)
+account1.credit(6000)
