@@ -174,7 +174,32 @@ for i in range (5):
 # exponent(2,2)
 
 # 2nd method
-base = int(input("Enter the base: "))
-exponent = int(input("Enter the exponent: "))
-result = pow(base, exponent)
-print(f"{base} raised to the power of {exponent} is {result}")
+# base = int(input("Enter the base: "))
+# exponent = int(input("Enter the exponent: "))
+# result = pow(base, exponent)
+# print(f"{base} raised to the power of {exponent} is {result}")
+
+# Display three string “Name”, “Is”, “James” as “Name**Is**James”
+
+# print("**".join(["Name", "Is", "James"]))
+
+# Convert Decimal number to octal using print() output formatting
+
+# num = 8
+# print('%o'% num)
+
+# Display float number with 2 decimal places using print()
+
+# num = 458.541315
+
+# print ('%.2f' % num)
+
+# Accept a list of 5 float numbers as an input from the user
+numbers = []
+for i in range(0, 5):
+    print("Enter number at location", i, ":")
+    item = float(input())
+    numbers.append(item)
+
+print("User List:", numbers)
+
