@@ -157,10 +157,10 @@
 #     print(i * "*")
 #     i = i - 1
 
-for i in range (5):
-    if i >=0:
-        print(i * "*")
-        i = i -1
+# for i in range (5):
+#     if i >=0:
+#         print(i * "*")
+#         i = i -1
 
 # Exercise 15: Get an int value of base raises to the power of exponent
 # 1st method
@@ -195,11 +195,39 @@ for i in range (5):
 # print ('%.2f' % num)
 
 # Accept a list of 5 float numbers as an input from the user
-numbers = []
-for i in range(0, 5):
-    print("Enter number at location", i, ":")
-    item = float(input())
-    numbers.append(item)
+# numbers = []
+# for i in range(0, 5):
+#     print("Enter number at location", i, ":")
+#     item = float(input())
+#     numbers.append(item)
 
-print("User List:", numbers)
+# print("User List:", numbers)
 
+
+# Accept any three string from one input() call
+# str1,str2,str3 = input("Enter three string :").split()
+# print("First Name :",str1)
+# print("Second Name :",str2)
+# print("Third Name :",str3)
+
+
+# Format variables using a string.format() method.
+# quantity = 3
+# totalMoney = 1000
+# price = 450
+# statement1 = "I have {1} dollars so I can buy {0} football for {2:.2f} dollars."
+# print(statement1.format(quantity, totalMoney, price))
+
+# Print first 10 natural numbers using while loop
+# i = 1
+# while i <= 10:
+#     print(i)
+#     i += 1
+
+# Print the following pattern
+row = 5
+for i in range(1,row+1,1):
+    for j in range(1,i+1):
+        print(j,end=" ")
+
+    print("")
