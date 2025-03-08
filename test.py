@@ -42,20 +42,20 @@
 #     print(char_count)
 
 # 7. Reverse a list without using reverse() method
-lst = [1,2,3,4,5]
-reversed_lst = lst[::-1]
-print(reversed_lst)
+# lst = [1,2,3,4,5]
+# reversed_lst = lst[::-1]
+# print(reversed_lst)
 
 # 8. Check if a number is prime
-def prime (n):
-    if n < 2:
-        return False
-    for i in range (2,n):
-        if n % i == 0:
-         return False
-    return True
-print(prime(7))
-print(prime(10))
+# def prime (n):
+#     if n < 2:
+#         return False
+#     for i in range (2,n):
+#         if n % i == 0:
+#          return False
+#     return True
+# print(prime(7))
+# print(prime(10))
 
 # 9. Merge two sorted lists into a single sorted list
 # lst1 = [1,3,5,7]
@@ -72,6 +72,18 @@ print(prime(10))
 
 
 # 11.Reverse a word without using reverse() method
-word = "unatti"
-reversed_word = word[::-1]
-print(reversed_word)
+# word = "unatti"
+# reversed_word = word[::-1]
+# print(reversed_word)
+
+
+# find the second largest number in an array
+def second_largest(arr):
+    arr = list(set(arr))  # Remove duplicates
+    arr.sort(reverse=True)  # Sort in descending order
+    return arr[1] if len(arr) > 1 else None  # Return second element
+
+numbers = [10, 20, 5, 8, 20, 30]
+# numbers = list(map(int, input("Enter numbers separated by spaces: ").split()))
+
+print(second_largest(numbers))  # Output: 20
