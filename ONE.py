@@ -136,3 +136,25 @@ i=0
 while(i<=10):
     print(i)
     i += 1
+
+
+    # Format variables using a string.format() method.
+# quantity = 3
+# totalMoney = 1000
+# price = 450
+# statement1 = "I have {1} dollars so I can buy {0} football for {2:.2f} dollars."
+# print(statement1.format(quantity, totalMoney, price))
+
+# Print first 10 natural numbers using while loop
+# i = 1
+# while i <= 10:
+#     print(i)
+#     i += 1
+
+# Print the following pattern
+# row = 5
+# for i in range(1,row+1,1):
+#     for j in range(1,i+1):
+#         print(j,end=" ")
+
+#     print("")
