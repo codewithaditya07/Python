@@ -225,6 +225,12 @@
 #     i += 1
 
 # Print the following pattern
+# 1 
+# 1 2 
+# 1 2 3 
+# 1 2 3 4 
+# 1 2 3 4 5
+
 # row = 5
 # for i in range(1,row+1,1):
 #     for j in range(1,i+1):
@@ -232,3 +238,38 @@
 
 #     print("")
 
+# Calculate sum of all numbers from 1 to a given number
+# n = int(input("Enter Any Number :- "))
+# z = sum(range(1,n+1))
+# print("The sum is :- ",z)
+
+# Print multiplication table of a given number
+# num = 2
+# for i in range(1,11):
+#     product = num * i
+#     print(product)
+
+# Display numbers from a list using a loop
+# The number must be divisible by five
+# If the number is greater than 150, then skip it and move to the following number
+# If the number is greater than 500, then stop the loop
+# Given:
+
+# numbers = [12, 75, 150, 180, 145, 525, 50]
+
+# for i in numbers:
+#     if  i > 500:
+#         break
+#     elif i > 150:
+#         continue
+#     elif i % 5 == 0:
+#         print(i)
+
+# Count the total number of digits in a number
+
+num = 1234588888
+count = 0
+while num != 0:
+    num = num // 10
+    count = count + 1
+print("total numbers of digits",count)
