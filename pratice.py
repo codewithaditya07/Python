@@ -267,9 +267,65 @@
 
 # Count the total number of digits in a number
 
-num = 1234588888
-count = 0
-while num != 0:
-    num = num // 10
-    count = count + 1
-print("total numbers of digits",count)
+# num = 1234588888
+# count = 0
+# while num != 0:
+#     num = num // 10
+#     count = count + 1
+# print("total numbers of digits",count)
+
+# Print the following pattern
+# 5 4 3 2 1 
+# 4 3 2 1 
+# 3 2 1 
+# 2 1 
+# 1
+# n =5
+# row = 5
+# for i in range(0,n+1):
+#     for j in range(row-i,0,-1):
+#         print(j,end=" ")
+#     print("")
+
+# Print list in reverse order using a loop
+# list1 = [10, 20, 30, 40, 50]
+
+# reverse_order = list1[::-1]
+# print(reverse_order)
+
+# Display numbers from -10 to -1 using for loop
+
+# for num in range(-10,0):
+#     print(num)
+
+# Display a message “Done” after the successful execution of the for loop
+# for i in range(5):
+#     print(i)
+# print("Done")
+
+#  Print all prime numbers within a range
+
+# start = 25
+# end = 50
+# print("Prime numbers between", start, "and", end, "are:")
+
+# for num in range(start,end +1):
+#     if num > 1:
+#         for i in range(2,num):
+#             if num % i == 0:
+#                 break
+#         else:
+#             print(num)
+
+# Display Fibonacci series up to 10 terms
+
+num1,num2 = 0,1
+print("Fibonacci Number :")
+
+for i in range(10):
+    print(num1,end=",")
+    res = num1 + num2
+
+    num1 = num2
+    num2 = res
+
