@@ -64,15 +64,15 @@
 
 
 # write a function to calculate the sum of digit of a number
-num = 1234
-def cal(num):
-    total = 0
-    while num>0:
-        digit = num%10
-        total += digit
-        num = num//10
-    return total
-print(cal(num))
+# num = 1234
+# def cal(num):
+#     total = 0
+#     while num>0:
+#         digit = num%10
+#         total += digit
+#         num = num//10
+#     return total
+# print(cal(num))
 
 
 #write a function to find the largest number in the list

@@ -319,13 +319,24 @@
 
 # Display Fibonacci series up to 10 terms
 
-num1,num2 = 0,1
-print("Fibonacci Number :")
+# num1,num2 = 0,1
+# print("Fibonacci Number :")
 
-for i in range(10):
-    print(num1,end=",")
-    res = num1 + num2
+# for i in range(10):
+#     print(num1,end=",")
+#     res = num1 + num2
 
-    num1 = num2
-    num2 = res
+#     num1 = num2
+#     num2 = res
 
+# Find the factorial of a given number
+num = 5
+factorial = 1
+if num < 0:
+    print("Factorial does not exist for negative numbers")
+elif num == 0:
+    print("The factorial of 0 is 1")
+else:
+    for i in range(1, num + 1):
+        factorial = factorial * i
+    print("The factorial of", num, "is", factorial)
