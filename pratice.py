@@ -330,13 +330,23 @@
 #     num2 = res
 
 # Find the factorial of a given number
-num = 5
-factorial = 1
-if num < 0:
-    print("Factorial does not exist for negative numbers")
-elif num == 0:
-    print("The factorial of 0 is 1")
-else:
-    for i in range(1, num + 1):
-        factorial = factorial * i
-    print("The factorial of", num, "is", factorial)
+# num = 5
+# factorial = 1
+# if num < 0:
+#     print("Factorial does not exist for negative numbers")
+# elif num == 0:
+#     print("The factorial of 0 is 1")
+# else:
+#     for i in range(1, num + 1):
+#         factorial = factorial * i
+    # print("The factorial of", num, "is", factorial)
+
+# Reverse a integer number
+num = 76542
+reverse_number = 0
+print("Given Number ", num)
+while num > 0:
+    reminder = num % 10
+    reverse_number = (reverse_number * 10) + reminder
+    num = num // 10
+print("Revese Number ", reverse_number)
