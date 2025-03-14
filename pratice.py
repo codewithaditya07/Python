@@ -342,11 +342,55 @@
     # print("The factorial of", num, "is", factorial)
 
 # Reverse a integer number
-num = 76542
-reverse_number = 0
-print("Given Number ", num)
-while num > 0:
-    reminder = num % 10
-    reverse_number = (reverse_number * 10) + reminder
-    num = num // 10
-print("Revese Number ", reverse_number)
+# num = 76542
+# reverse_number = 0
+# print("Given Number ", num)
+# while num > 0:
+#     reminder = num % 10
+#     reverse_number = (reverse_number * 10) + reminder
+#     num = num // 10
+# print("Revese Number ", reverse_number)
+
+# Print elements from a given list present at odd index positions
+# my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+# for i in my_list[1::2]:
+#     print(i,end=",")
+
+# Calculate the cube of all numbers from 1 to a given number
+# num = 6
+# for i in range(1,num+1):
+#     print("current number",i,":- the cube of current number is",(i*i*i))
+
+# Write a program to calculate the sum of series up to n terms. For example,
+#  if n = 5 the series will become 2 + 22 + 222 + 2222 + 22222 = 24690
+
+# n = 5  
+# sum_series = 0
+# term = 0
+
+# for i in range(n):
+#     term = term * 10 + 2 
+#     sum_series += term   
+# print("Sum of the series:", sum_series)
+
+# Print the following pattern
+# * 
+# * * 
+# * * * 
+# * * * * 
+# * * * * * 
+# * * * * 
+# * * * 
+# * * 
+# *
+
+# row  =  5
+# for i in range(0,row):
+#     for j in range(0,i+1):
+#         print("*",end=" ")
+#     print("")
+
+# for i in range(row,0,-1):
+#     for j in range(0,i-1):
+#         print("*",end=" ")
+#     print("")
