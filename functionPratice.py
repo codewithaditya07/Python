@@ -38,17 +38,46 @@
 # Create an inner function inside an outer function that will calculate the addition of a and b
 # At last, an outer function will add 5 into addition and return it
 # # outer function
-def outer_fun(a, b):
-    square = a ** 2
+# def outer_fun(a, b):
+#     square = a ** 2
 
-    # inner function
-    def addition(a, b):
-        return a + b
+#     # inner function
+#     def addition(a, b):
+#         return a + b
 
-    # call inner function from outer function
-    add = addition(a, b)
-    # add 5 to the result
-    return add + 5
+#     # call inner function from outer function
+#     add = addition(a, b)
+#     # add 5 to the result
+#     return add + 5
 
-result = outer_fun(5, 10)
-print(result)
+# result = outer_fun(5, 10)
+# print(result)
+
+# Write a program to create a recursive function to calculate the sum of numbers from 0 to 10.
+# def addition(num):
+#     if num: 
+#         return num + addition(num - 1)
+#     else:
+#         return 0
+
+# res = addition(10)
+# print(res)
+
+# Below is the function display_student(name, age). Assign a new name show_tudent(name, age) to it and call it using the new name.
+
+# def display_student(name, age):
+#     print(name, age)
+
+# display_student("Emma", 26)
+
+# showStudent = display_student
+# showStudent("Emma",26)
+
+# Generate a Python list of all the even numbers between 4 to 30
+
+# print(list(range(4, 30, 2)))
+
+# Find the largest item from a given list
+x = [4, 6, 8, 24, 12, 2]
+
+print(max(x))
