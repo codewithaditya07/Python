@@ -43,17 +43,34 @@ print("New String:", res)
 
 
 # Given two strings, s1 and s2, write a program to return a new string made of s1 and s2’s first, middle, and last characters.
-def mix_string(s1, s2):
+# def mix_string(s1, s2):
     
-    first_char = s1[0] + s2[0]
-    middle_char = s1[int(len(s1) / 2):int(len(s1) / 2) + 1] + s2[int(len(s2) / 2):int(len(s2) / 2) + 1]
+#     first_char = s1[0] + s2[0]
+#     middle_char = s1[int(len(s1) / 2):int(len(s1) / 2) + 1] + s2[int(len(s2) / 2):int(len(s2) / 2) + 1]
 
-    last_char = s1[len(s1) - 1] + s2[len(s2) - 1]
+#     last_char = s1[len(s1) - 1] + s2[len(s2) - 1]
 
-    # add all
-    res = first_char + middle_char + last_char
-    print("Mix String is ", res)
+#     # add all
+#     res = first_char + middle_char + last_char
+#     print("Mix String is ", res)
 
-s1 = "America"
-s2 = "Japan"
-mix_string(s1, s2)
+# s1 = "America"
+# s2 = "Japan"
+# mix_string(s1, s2)
+
+
+# Given string contains a combination of the lower and upper case letters.
+# Write a program to arrange the characters of a string so that all lowercase letters should come first.
+
+str1 = "PYnAtivE"
+print('Original String:', str1)
+lower = []
+upper = []
+for char in str1:
+    if char.islower():
+        lower.append(char)
+    else:
+        upper.append(char)
+
+sorted_str = ''.join(lower + upper)
+print('Result:', sorted_str)
