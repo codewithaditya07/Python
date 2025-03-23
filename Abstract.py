@@ -71,6 +71,5 @@ class Cat(Animal):
 
 dog = Dog()
 cat = Cat()
-
 dog.sound()  
 

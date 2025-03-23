@@ -18,7 +18,7 @@ class BankAccount:
         else:
             print("Insufficient funds!")
 
-    def get_balance(self):  # Getter method to access private attribute
+    def get_balance(self):  
         return self.__balance
 
 # Creating an object

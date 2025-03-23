@@ -138,7 +138,7 @@ while(i<=10):
     i += 1
 
 
-    # Format variables using a string.format() method.
+# Format variables using a string.format() method.
 # quantity = 3
 # totalMoney = 1000
 # price = 450
