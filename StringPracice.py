@@ -62,15 +62,37 @@ print("New String:", res)
 # Given string contains a combination of the lower and upper case letters.
 # Write a program to arrange the characters of a string so that all lowercase letters should come first.
 
-str1 = "PYnAtivE"
-print('Original String:', str1)
-lower = []
-upper = []
-for char in str1:
-    if char.islower():
-        lower.append(char)
-    else:
-        upper.append(char)
+# str1 = "PYnAtivE"
+# print('Original String:', str1)
+# lower = []
+# upper = []
+# for char in str1:
+#     if char.islower():
+#         lower.append(char)
+#     else:
+#         upper.append(char)
 
-sorted_str = ''.join(lower + upper)
-print('Result:', sorted_str)
+# sorted_str = ''.join(lower + upper)
+# print('Result:', sorted_str)
+
+
+#  Count all letters, digits, and special symbols from a given string
+
+def find_digits_chars_symbols(sample_str):
+    char_count = 0
+    digit_count = 0
+    symbol_count = 0
+    for char in sample_str:
+        if char.isalpha():
+            char_count += 1
+        elif char.isdigit():
+            digit_count += 1
+        # if it is not letter or digit then it is special symbol
+        else:
+            symbol_count += 1
+
+    print("Chars =", char_count, "Digits =", digit_count, "Symbol =", symbol_count)
+
+sample_str = "P@yn2at&#i5ve"
+print("total counts of chars, Digits, and symbols \n")
+find_digits_chars_symbols(sample_str)
