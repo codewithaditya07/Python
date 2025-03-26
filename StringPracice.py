@@ -95,4 +95,3 @@ def find_digits_chars_symbols(sample_str):
 
 sample_str = "P@yn2at&#i5ve"
 print("total counts of chars, Digits, and symbols \n")
-find_digits_chars_symbols(sample_str)
