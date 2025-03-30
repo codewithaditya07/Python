@@ -79,9 +79,9 @@
 
 # find the second largest number in an array
 def second_largest(arr):
-    arr = list(set(arr))  # Remove duplicates
-    arr.sort(reverse=True)  # Sort in descending order
-    return arr[1] if len(arr) > 1 else None  # Return second element
+    arr = list(set(arr))  
+    arr.sort(reverse=True)  
+    return arr[1] if len(arr) > 1 else None  
 
 numbers = [10, 20, 5, 8, 20, 30]
 # numbers = list(map(int, input("Enter numbers separated by spaces: ").split()))

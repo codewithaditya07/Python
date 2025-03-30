@@ -86,8 +86,7 @@ def find_digits_chars_symbols(sample_str):
         if char.isalpha():
             char_count += 1
         elif char.isdigit():
-            digit_count += 1
-        # if it is not letter or digit then it is special symbol
+            digit_count += 1       
         else:
             symbol_count += 1
 
