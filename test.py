@@ -87,3 +87,18 @@ numbers = [10, 20, 5, 8, 20, 30]
 # numbers = list(map(int, input("Enter numbers separated by spaces: ").split()))
 
 print(second_largest(numbers))  # Output: 20
+
+
+
+
+# prime number'
+
+def prime(n):
+    if n < 2:
+        return False
+    for i in range (2,n):
+        if n % i == 0:
+            return False
+    return True
+
+print(prime(7))
