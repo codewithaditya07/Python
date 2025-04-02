@@ -1,19 +1,19 @@
 # Write a program to create a new string made of an input string’s first, middle, and last character.
 
-str1 = 'James'
-print("Original String is", str1)
+# str1 = 'James'
+# print("Original String is", str1)
 
-res = str1[0]
+# res = str1[0]
 
-l = len(str1)
+# l = len(str1)
 
-mi = int(l / 2)
+# mi = int(l / 2)
 
-res = res + str1[mi]
+# res = res + str1[mi]
 
-res = res + str1[l - 1]
+# res = res + str1[l - 1]
 
-print("New String:", res)
+# print("New String:", res)
 
 # Write a program to create a new string made of the middle three characters of an input string.
 
@@ -99,22 +99,32 @@ print("New String:", res)
 # Write a program to check if two strings are balanced. For example, 
 # strings s1 and s2 are balanced if all the characters in the s1 are present in s2. The character’s position doesn’t matter.
 
-def string_balance_test(s1, s2):
-    flag = True
-    for char in s1:
-        if char in s2:
-            continue
-        else:
-            flag = False
-    return flag
+# def string_balance_test(s1, s2):
+#     flag = True
+#     for char in s1:
+#         if char in s2:
+#             continue
+#         else:
+#             flag = False
+#     return flag
 
 
-s1 = "Yn"
-s2 = "PYnative"
-flag = string_balance_test(s1, s2)
-print("s1 and s2 are balanced:", flag)
+# s1 = "Yn"
+# s2 = "PYnative"
+# flag = string_balance_test(s1, s2)
+# print("s1 and s2 are balanced:", flag)
 
-s1 = "Ynf"
-s2 = "PYnative"
-flag = string_balance_test(s1, s2)
-print("s1 and s2 are balanced:", flag)
+# s1 = "Ynf"
+# s2 = "PYnative"
+# flag = string_balance_test(s1, s2)
+# print("s1 and s2 are balanced:", flag)
+
+
+# Write a program to find all occurrences of “USA” in a given string ignoring the case.
+
+str1 = "Welcome to USA. usa awesome, isn't it?"
+sub_string = "USA"
+
+temp_str = str1.lower()
+count = temp_str.count(sub_string.lower())
+print("The USA count is:", count)
