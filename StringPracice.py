@@ -122,9 +122,25 @@
 
 # Write a program to find all occurrences of “USA” in a given string ignoring the case.
 
-str1 = "Welcome to USA. usa awesome, isn't it?"
-sub_string = "USA"
+# str1 = "Welcome to USA. usa awesome, isn't it?"
+# sub_string = "USA"
 
-temp_str = str1.lower()
-count = temp_str.count(sub_string.lower())
-print("The USA count is:", count)
+# temp_str = str1.lower()
+# count = temp_str.count(sub_string.lower())
+# print("The USA count is:", count)
+
+
+# Calculate the sum and average of the digits present in a string
+
+input_str = "PYnative29@#8496"
+total = 0
+cnt = 0
+for char in input_str:
+    if char.isdigit():
+        total += int(char)
+        cnt += 1
+
+# average = sum / count of digits
+avg = total / cnt
+print("Sum is:", total, "Average is ", avg)
+
