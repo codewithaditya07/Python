@@ -132,15 +132,21 @@
 
 # Calculate the sum and average of the digits present in a string
 
-input_str = "PYnative29@#8496"
-total = 0
-cnt = 0
-for char in input_str:
-    if char.isdigit():
-        total += int(char)
-        cnt += 1
+# input_str = "PYnative29@#8496"
+# total = 0
+# cnt = 0
+# for char in input_str:
+#     if char.isdigit():
+#         total += int(char)
+#         cnt += 1
+# avg = total / cnt
+# print("Sum is:", total, "Average is ", avg)
 
-# average = sum / count of digits
-avg = total / cnt
-print("Sum is:", total, "Average is ", avg)
+# Write a program to count occurrences of all characters within a string
 
+str1 = "Apple"
+char_dict = dict()
+for char in str1:
+    count = str1.count(char)
+    char_dict[char] = count
+print('Result:', char_dict)
