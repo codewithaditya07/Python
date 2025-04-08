@@ -144,27 +144,21 @@
 
 # Write a program to count occurrences of all characters within a string
 
-str1 = "Apple"
-char_dict = dict()
-for char in str1:
-    count = str1.count(char)
-    char_dict[char] = count
-print('Result:', char_dict)
+# str1 = "Apple"
+# char_dict = dict()
+# for char in str1:
+#     count = str1.count(char)
+#     char_dict[char] = count
+# print('Result:', char_dict)
+
+# Write a program to split a given string on hyphens and display each substring.
+
+str1 = "Emma-is-a-data-scientist"
+print("Original String is:", str1)
+sub_strings = str1.split("-")
+
+print("Displaying each substring")
+for sub in sub_strings:
+    print(sub)
 
 
-# Write a program to create a new string made of an input string’s first, middle, and last character.
-
-# str1 = 'James'
-# print("Original String is", str1)
-
-# res = str1[0]
-
-# l = len(str1)
-
-# mi = int(l / 2)
-
-# res = res + str1[mi]
-
-# res = res + str1[l - 1]
-
-# print("New String:", res)
