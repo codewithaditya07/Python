@@ -153,12 +153,32 @@
 
 # Write a program to split a given string on hyphens and display each substring.
 
-str1 = "Emma-is-a-data-scientist"
+# str1 = "Emma-is-a-data-scientist"
+# print("Original String is:", str1)
+# sub_strings = str1.split("-")
+
+# print("Displaying each substring")
+# for sub in sub_strings:
+#     print(sub)
+
+
+# Reverse a given string
+
+str1 = "PYnative"
 print("Original String is:", str1)
-sub_strings = str1.split("-")
 
-print("Displaying each substring")
-for sub in sub_strings:
-    print(sub)
+str1 = str1[::-1]
+print("Reversed String is:", str1)
 
 
+# Write a program to count occurrences of all characters within a string
+str1 = "Apple"
+
+# create a result dictionary
+char_dict = dict()
+
+for char in str1:
+    count = str1.count(char)
+    # add / update the count of a character
+    char_dict[char] = count
+print('Result:', char_dict)
