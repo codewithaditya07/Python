@@ -32,3 +32,26 @@ for i in range(3):
     for j in range(2):
         print(f"i:{i} and j:{j}")
 
+# Example- Prime numbers between 1 and 100
+
+for num in range(1,101):
+    if num>1:
+        for i in range(2,num):
+            if num%i==0:
+                break
+        else:
+            print(num)
+
+# Examples- Calculate the sum of first N natural numbers using a while and for loop
+
+## while loop  
+
+n=10   
+sum=0
+count=1
+
+while count<=n:
+    sum=sum+count
+    count=count+1
+
+print("Sum of first 10 natural number:",sum)
