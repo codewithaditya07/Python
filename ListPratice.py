@@ -25,4 +25,10 @@ list1 = ["Hello ", "take "]
 list2 = ["Dear", "Sir"]
 
 res = [x + y for x in list1 for y in list2]
-print(res)
+
+#Q5 print(res)Iterate both lists simultaneously
+list1 = [10, 20, 30, 40]
+list2 = [100, 200, 300, 400]
+
+for x, y in zip(list1, list2[::-1]):
+    print(x, y)
