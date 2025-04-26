@@ -13,9 +13,16 @@
 
 # Q3 Turn every item of a list into its square
 
-numbers = [1, 2, 3, 4, 5, 6, 7]
-res = []
-for i in numbers:
-    res.append(i * i)
-print(res)
+# numbers = [1, 2, 3, 4, 5, 6, 7]
+# res = []
+# for i in numbers:
+#     res.append(i * i)
+# print(res)
 
+
+#Q4 Concatenate two lists in the following order
+list1 = ["Hello ", "take "]
+list2 = ["Dear", "Sir"]
+
+res = [x + y for x in list1 for y in list2]
+print(res)
