@@ -32,3 +32,8 @@ list2 = [100, 200, 300, 400]
 
 for x, y in zip(list1, list2[::-1]):
     print(x, y)
+
+#Q6 Remove empty strings from the list of strings
+list1 = ["Mike", "", "Emma", "Kelly", "", "Brad"]
+res = list(filter(None, list1))
+print(res)
