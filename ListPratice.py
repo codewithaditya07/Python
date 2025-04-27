@@ -37,3 +37,9 @@ for x, y in zip(list1, list2[::-1]):
 list1 = ["Mike", "", "Emma", "Kelly", "", "Brad"]
 res = list(filter(None, list1))
 print(res)
+
+
+#Q7 Write a program to add item 7000 after 6000 in the following Python List
+list1 = [10, 20, [300, 400, [5000, 6000], 500], 30, 40]
+list1[2][2].append(7000)
+print(list1)
