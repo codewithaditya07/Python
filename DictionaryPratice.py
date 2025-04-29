@@ -49,8 +49,25 @@ keys = ["name", "salary"]
 newDict = {k: sampleDict[k] for k in keys}
 print(newDict)
 
-#Q6
-#Q7
+#Q6 Delete a list of keys from a dictionary
+sample_dict = {
+    "name": "Kelly",
+    "age": 25,
+    "salary": 8000,
+    "city": "New york"
+}
+# Keys to remove
+keys = ["name", "salary"]
+
+for k in keys:
+    sample_dict.pop(k)
+print(sample_dict)
+
+#Q7 Check if a value exists in a dictionary
+sample_dict = {'a': 100, 'b': 200, 'c': 300}
+if 200 in sample_dict.values():
+    print('200 present in a dict')
+    
 #Q8
 #Q9
 #Q10
