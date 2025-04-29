@@ -35,3 +35,22 @@ print(res)
 
 # Individual data
 print(res["Kelly"])
+
+
+#Q5 Create a dictionary by extracting the keys from a given dictionary
+sampleDict = { 
+  "name": "Kelly",
+  "age":25, 
+  "salary": 8000, 
+  "city": "New york" }
+
+keys = ["name", "salary"]
+
+newDict = {k: sampleDict[k] for k in keys}
+print(newDict)
+
+#Q6
+#Q7
+#Q8
+#Q9
+#Q10
