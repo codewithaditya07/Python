@@ -28,3 +28,24 @@
 #         print("Agent: Carry a water bottle")
 # else:
 #     print("Invalid choice!")
+
+# Q3.To build a calculator that performs arithmetic operations based on user commands.
+# ANS.
+choice = input("Enter Your choice : ")
+if choice == "3":
+    a = float(input("Enter first number: "))
+    b = float(input("Enter second number: "))
+    op = input("Enter operation (+, -, *, /): ")
+    if op == "+":
+        print("Result:", a + b)
+    elif op == "-":
+        print("Result:", a - b)
+    elif op == "*":
+        print("Result:", a * b)
+    elif op == "/":
+        if b != 0:
+            print("Result:", a / b)
+        else:
+            print("Error: Division by zero")
+    else:
+        print("Invalid operation")
