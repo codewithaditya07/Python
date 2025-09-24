@@ -52,30 +52,30 @@
 
 # Q4.To detect the user’s mood based on given text input using keyword matching.
 # Ans.
-# print("Menu:")
-# print("1. Exit")
-# print("2. Weather decision")
-# print("3. (Reserved)")
-# print("4. Mood detection")
+print("Menu:")
+print("1. Exit")
+print("2. Weather decision")
+print("3. (Reserved)")
+print("4. Mood detection")
 
-# choice = input("Enter your choice (1-4): ")
-# if choice == "1":
-#     print("Exiting...")
-# elif choice == "2":
-#     weather = input("Enter today's weather: ").lower()
-#     if "rain" in weather:
-#         print("Agent: Take an umbrella")
-#     else:
-#         print("Agent: Carry a water bottle")
-# elif choice == "4":
-#     text = input("Enter a sentence about your feelings: ").lower()
-#     if "happy" in text or "good" in text or "great" in text or "awesome" in text:
-#         print("Mood: You seem Happy")
-#     elif "sad" in text or "bad" in text or "upset" in text or "unhappy" in text:
-#         print("Mood: You seem Sad")
-#     elif "angry" in text or "mad" in text or "furious" in text:
-#         print("Mood: You seem Angry")
-#     else:
-#         print("Mood not detected")
-# else:
-#     print("Invalid choice!")
+choice = input("Enter your choice (1-4): ")
+if choice == "1":
+    print("Exiting...")
+elif choice == "2":
+    weather = input("Enter today's weather: ").lower()
+    if "rain" in weather:
+        print("Agent: Take an umbrella")
+    else:
+        print("Agent: Carry a water bottle")
+elif choice == "4":
+    text = input("Enter a sentence about your feelings: ").lower()
+    if "happy" in text or "good" in text or "great" in text or "awesome" in text:
+        print("Mood: You seem Happy")
+    elif "sad" in text or "bad" in text or "upset" in text or "unhappy" in text:
+        print("Mood: You seem Sad")
+    elif "angry" in text or "mad" in text or "furious" in text:
+        print("Mood: You seem Angry")
+    else:
+        print("Mood not detected")
+else:
+    print("Invalid choice!")
