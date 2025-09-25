@@ -52,21 +52,56 @@
 
 # Q4.To detect the user’s mood based on given text input using keyword matching.
 # Ans.
+# print("Menu:")
+# print("1. Exit")
+# print("2. Weather decision")
+# print("3. (Reserved)")
+# print("4. Mood detection")
+
+# choice = input("Enter your choice (1-4): ")
+# if choice == "1":
+#     print("Exiting...")
+# elif choice == "2":
+#     weather = input("Enter today's weather: ").lower()
+#     if "rain" in weather:
+#         print("Agent: Take an umbrella")
+#     else:
+#         print("Agent: Carry a water bottle")
+# elif choice == "4":
+#     text = input("Enter a sentence about your feelings: ").lower()
+#     if "happy" in text or "good" in text or "great" in text or "awesome" in text:
+#         print("Mood: You seem Happy")
+#     elif "sad" in text or "bad" in text or "upset" in text or "unhappy" in text:
+#         print("Mood: You seem Sad")
+#     elif "angry" in text or "mad" in text or "furious" in text:
+#         print("Mood: You seem Angry")
+#     else:
+#         print("Mood not detected")
+# else:
+#     print("Invalid choice!")
+
+
+# Q5.To classify a message as spam or not spam based on keywords.
+# ANS.
+
 print("Menu:")
 print("1. Exit")
 print("2. Weather decision")
 print("3. (Reserved)")
 print("4. Mood detection")
+print("5. Spam classification")
 
-choice = input("Enter your choice (1-4): ")
+choice = input("Enter your choice (1-5): ")
 if choice == "1":
     print("Exiting...")
+
 elif choice == "2":
     weather = input("Enter today's weather: ").lower()
     if "rain" in weather:
         print("Agent: Take an umbrella")
     else:
         print("Agent: Carry a water bottle")
+
 elif choice == "4":
     text = input("Enter a sentence about your feelings: ").lower()
     if "happy" in text or "good" in text or "great" in text or "awesome" in text:
@@ -77,5 +112,15 @@ elif choice == "4":
         print("Mood: You seem Angry")
     else:
         print("Mood not detected")
+
+elif choice == "5":
+    message = input("Enter a message: ").lower()
+    if ("win" in message or "free" in message or "lottery" in message or
+        "prize" in message or "money" in message or "click here" in message):
+        print("Classification: Spam Message")
+    else:
+        print("Classification: Not Spam")
+
 else:
     print("Invalid choice!")
+
