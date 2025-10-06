@@ -113,14 +113,14 @@ elif choice == "4":
     else:
         print("Mood not detected")
 
-# elif choice == "5":
-#     message = input("Enter a message: ").lower()
-#     if ("win" in message or "free" in message or "lottery" in message or
-#         "prize" in message or "money" in message or "click here" in message):
-#         print("Classification: Spam Message")
-#     else:
-#         print("Classification: Not Spam")
+elif choice == "5":
+    message = input("Enter a message: ").lower()
+    if ("win" in message or "free" in message or "lottery" in message or
+        "prize" in message or "money" in message or "click here" in message):
+        print("Classification: Spam Message")
+    else:
+        print("Classification: Not Spam")
 
-# else:
-#     print("Invalid choice!")
+else:
+    print("Invalid choice!")
 
