@@ -47,6 +47,46 @@
 
 # Q10CREATE A DICTIONARY FROM A LIST OF WORDS WHERE KEYS ARE THE WORDS
 # AND VALUES THE LENGETH OF THOSE WORDS 
-word = ["list","comprehension","is","amazing"]
-dic={x:len(x) for x in word}
-print(dic)
+# word = ["list","comprehension","is","amazing"]
+# dic={x:len(x) for x in word}
+# print(dic)
+
+
+# calculator
+
+# first = input("enter 1st no : ")
+# operator = input("choose operator  +,-,*,/,% :- ")
+# second = input("enter 2nd no : ")
+
+# first = int(first)
+# second = int(second)
+
+# if operator == '+':
+#     print( first + second)
+# elif operator == '-':
+#     print( first - second)
+# elif operator == '*':
+#     print( first * second)
+# elif operator == '/':
+#     print( first / second)
+# elif operator == '%':
+#     print( first % second)
+# else:
+#    print("invalid operation" )
+
+
+# i = 1
+# while i <= 5:
+#     print(i)
+#     i = i + 1
+
+
+# i = 1
+# while i <= 5:
+#     print(i * "*")
+#     i = i + 1
+
+# i = 5
+# while i >= 0:
+#     print(i * "*")
+#     i = i - 1
