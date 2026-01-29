@@ -1,5 +1,3 @@
-
-# i = 1
-# while i <= 5:
-#     print(i)
-#     i = i + 1
+x = [1, 2, 3]
+# x.append(4)
+# print(len(x))

@@ -75,11 +75,40 @@
 #    print("invalid operation" )
 
 
-i = 1
-while i <= 5:
-    print(i)
-    i = i + 1
+# i = 1
+# while i <= 5:
+#     print(i)
+#     i = i + 1
 
 
+# x = [1, 2, 3]
+# x.append(4)
+# print(len(x))
 
+# a = "hello"
+# print(a[::-1])
+
+# for i in range(1, 5):
+#     if i == 3:
+#         break
+#     print(i, end=" ")
+
+# n = int(input("enter any no "))
+# flag = True
+# for i in range (2,n):
+#     if n % i == 0:
+#         flag = False
+#         break
+# if flag and n > 1:
+#     print("prime")
+# else:
+#     print("not prime")
+
+# x = 5
+# y = 10
+# x, y = y, x
+# print(x, y)
+
+# d = {1: 'A', 2: 'B'}
+# print(d[2])
 
