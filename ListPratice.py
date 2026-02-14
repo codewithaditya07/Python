@@ -57,9 +57,9 @@ list1[index] = 200
 print(list1)
 
 # Q10 Remove all occurrences of a specific item from a list.
-list1 = [5, 20, 15, 20, 25, 50, 20]
-def remove_value(sample_list, val):
-    return [i for i in sample_list if i != val]
+# list1 = [5, 20, 15, 20, 25, 50, 20]
+# def remove_value(sample_list, val):
+#     return [i for i in sample_list if i != val]
 
-res = remove_value(list1, 20)
-print(res)
+# res = remove_value(list1, 20)
+# print(res)
