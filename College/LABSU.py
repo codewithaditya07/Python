@@ -155,13 +155,13 @@
 # print("a >> 1 =", a >> 1)
 
 
-# x = [1,2,3]
-# print(x*2)
+x = [1,2,3]
+print(x*2)
 
-# for i in range(1,5):
-#     if i==3:
-#         break
-    # print(i,end=" ")
+for i in range(1,5):
+    if i==3:
+        break
+    print(i,end=" ")
     
 
 
