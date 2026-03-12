@@ -145,7 +145,7 @@
 # c -= b
 # print("c -= b :", c)
 
-Bitwise Operators
+# Bitwise Operators
 print("\nBitwise Operators")
 print("a & b =", a & b)
 print("a | b =", a | b)
