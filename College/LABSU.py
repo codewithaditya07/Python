@@ -1,23 +1,23 @@
 # 1	Write a program to purposefully raise Indentation Error and Correct it
-Purposefully creating Indentation Error
+# Purposefully creating Indentation Error
 
-def greet():
-print("Hello Student")   # No indentation inside function
+# def greet():
+# print("Hello Student")   # No indentation inside function
 
-greet()
+# greet()
 
-# Corrected program
-def greet():
-    print("Hello Student")   # Proper indentation
+# # Corrected program
+# def greet():
+#     print("Hello Student")   # Proper indentation
 
-greet() 
+# greet() 
 
-2 Write a program to compute distance between two points taking input from the user (Pythagorean Theorem)
-Program to calculate distance between two points
+# 2 Write a program to compute distance between two points taking input from the user (Pythagorean Theorem)
+# Program to calculate distance between two points
 
-Program to calculate distance between two points
+# Program to calculate distance between two points
 
-import math
+# import math
 
 # # Taking input from user
 # x1 = float(input("Enter x1: "))
