@@ -20,10 +20,10 @@
 # import math
 
 # # Taking input from user
-x1 = float(input("Enter x1: "))
-y1 = float(input("Enter y1: "))
-x2 = float(input("Enter x2: "))
-y2 = float(input("Enter y2: "))
+# x1 = float(input("Enter x1: "))
+# y1 = float(input("Enter y1: "))
+# x2 = float(input("Enter x2: "))
+# y2 = float(input("Enter y2: "))
 
 # # Applying distance formula
 # distance = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
@@ -138,31 +138,31 @@ y2 = float(input("Enter y2: "))
 # print("not(a > b) :", not(a > b))
 
 # # Assignment Operators
-# print("\nAssignment Operators")
-# c = a
-# c += b
-# print("c += b :", c)
-# c -= b
-# print("c -= b :", c)
+print("\nAssignment Operators")
+c = a
+c += b
+print("c += b :", c)
+c -= b
+print("c -= b :", c)
 
-# Bitwise Operators
-# # print("\nBitwise Operators")
-# print("a & b =", a & b)
-# print("a | b =", a | b)
-# print("a ^ b =", a ^ b)
-# print("~a =", ~a)
-# print("a << 1 =", a << 1)
-# print("a >> 1 =", a >> 1)
+Bitwise Operators
+# print("\nBitwise Operators")
+print("a & b =", a & b)
+print("a | b =", a | b)
+print("a ^ b =", a ^ b)
+print("~a =", ~a)
+print("a << 1 =", a << 1)
+print("a >> 1 =", a >> 1)
 
 
-# x = [1,2,3]
-# print(x*2)
+x = [1,2,3]
+print(x*2)
 
-# for i in range(1,5):
-#     if i==3:
-#         break
-#     print(i,end=" ")
+for i in range(1,5):
+    if i==3:
+        break
+    print(i,end=" ")
     
 
 
-# print(bool(0), bool(5))
+print(bool(0), bool(5))
