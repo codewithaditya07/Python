@@ -146,10 +146,10 @@ c -= b
 print("c -= b :", c)
 
 Bitwise Operators
-# print("\nBitwise Operators")
-print("a & b =", a & b)
-print("a | b =", a | b)
-print("a ^ b =", a ^ b)
+# # print("\nBitwise Operators")
+# print("a & b =", a & b)
+# print("a | b =", a | b)
+# print("a ^ b =", a ^ b)
 print("~a =", ~a)
 print("a << 1 =", a << 1)
 print("a >> 1 =", a >> 1)
