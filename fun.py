@@ -76,12 +76,12 @@
 
 
 #write a function to find the largest number in the list
-num=[1,2,3,4,5,6,8,9]
-def largest(num):
-    largest=0
-    for i in num:
-        if i>largest:
-            largest=i
-    return largest
-b=largest(num)
-print(b)
+# num=[1,2,3,4,5,6,8,9]
+# def largest(num):
+#     largest=0
+#     for i in num:
+#         if i>largest:
+#             largest=i
+#     return largest
+# b=largest(num)
+# print(b)
