@@ -56,18 +56,18 @@
 # print(count)
 
 # Write a program to count the number of positive and negative numbers in a list.
-numbers = [-10, 15, -20, 25, -5, 30]
-positive_count = 0
-negative_count = 0
-for i in numbers:
-    if (i<0):
-        print("Negative Numbers are : " , i)
-        negative_count +=1
-    else:
-        print("Positive numbers are : " , i)
-        positive_count +=1
-print("Positive counts are : " , positive_count)
-print("Negative counts are : " , negative_count)
+# numbers = [-10, 15, -20, 25, -5, 30]
+# positive_count = 0
+# negative_count = 0
+# for i in numbers:
+#     if (i<0):
+#         print("Negative Numbers are : " , i)
+#         negative_count +=1
+#     else:
+#         print("Positive numbers are : " , i)
+#         positive_count +=1
+# print("Positive counts are : " , positive_count)
+# print("Negative counts are : " , negative_count)
 
 #Question:- A company insures its drivers in the following cases 
 # If the driver is married
