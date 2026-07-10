@@ -70,14 +70,14 @@
 
 # display_student("Emma", 26)
 
-# showStudent = display_student
-# showStudent("Emma",26)
+showStudent = display_student
+showStudent("Emma",26)
 
-# Generate a Python list of all the even numbers between 4 to 30
+Generate a Python list of all the even numbers between 4 to 30
 
-# print(list(range(4, 30, 2)))
+print(list(range(4, 30, 2)))
 
-# Find the largest item from a given list
+Find the largest item from a given list
 x = [4, 6, 8, 24, 12, 2]
 
 print(max(x))
