@@ -194,6 +194,6 @@
 #         print(f"total marks {self.cal_total()}, average {self.cal_avg():.2f}")
 #         print(f"grade {self.grade()}")
 
-marks = {"math":85,"science":90,"english" : 80}
-student = Student("madhav",200564,marks)
-student.display()
+# marks = {"math":85,"science":90,"english" : 80}
+# student = Student("madhav",200564,marks)
+# student.display()
