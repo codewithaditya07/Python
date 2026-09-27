@@ -11,12 +11,12 @@
 
 # Q2 Write Python code to perform One-Hot Encoding.
  
-# import pandas as pd
-# hash
-# data = pd.DataFrame({
-#  'color': ['red','blue','green']
+import pandas as pd
+hash
+data = pd.DataFrame({
+ 'color': ['red','blue','green']
  
-# })
-# license
-# df = pd.get_dummies(data)
-# print(df)
+})
+license
+df = pd.get_dummies(data)
+print(df)
