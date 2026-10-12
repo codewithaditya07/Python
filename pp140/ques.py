@@ -10,16 +10,16 @@
 # print("Addition =", addition)
 # print("Division =", division)
 # # Q3
-base = float(input("Enter base: "))
-height = float(input("Enter height: "))
+# base = float(input("Enter base: "))
+# height = float(input("Enter height: "))
 
-area = 0.5*base*height
-print("area of triangle =",area)
-# Q4
-a = int(input("enter first element :"))
-b = int(input("enter second element :"))
+# area = 0.5*base*height
+# print("area of triangle =",area)
+# # Q4
+# a = int(input("enter first element :"))
+# b = int(input("enter second element :"))
 
-print(f"original elements a = {a}, b = {b}" )
+# print(f"original elements a = {a}, b = {b}" )
 
 # temp = a
 # a = b
