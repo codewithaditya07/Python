@@ -46,14 +46,28 @@
 # print("Temperature in Fahrenheit =", fahrenheit)
 
 # # Q8
-import calendar
-year = int(input("enter year : "))
-month =int(input("enter month : "))
+# import calendar
+# year = int(input("enter year : "))
+# month =int(input("enter month : "))
 
-cal = calendar.month(year,month)
-print(cal)
+# cal = calendar.month(year,month)
+# print(cal)
 
 # Q9
+
+
+
+
+import numpy as np
+data = np.array([1,2,3,4,5,6])
+mean = np.mean(data)
+std_div = np.std(data)
+
+normalization_data = (data - mean) / std_div
+print("normalization value", normalization_data)
+
+
+
 
 
 # Q10
