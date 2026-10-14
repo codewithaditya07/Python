@@ -58,13 +58,13 @@
 
 
 
-import numpy as np
-data = np.array([1,2,3,4,5,6])
-mean = np.mean(data)
-std_div = np.std(data)
+# import numpy as np
+# data = np.array([1,2,3,4,5,6])
+# mean = np.mean(data)
+# std_div = np.std(data)
 
-normalization_data = (data - mean) / std_div
-print("normalization value", normalization_data)
+# normalization_data = (data - mean) / std_div
+# print("normalization value", normalization_data)
 
 
 
