@@ -26,13 +26,13 @@
 # print(dic)
 
 # Q7Create a list of all words in a sentence that are longer than 4 characters.
-#sentence = "List comprehension is a powerful feature in Python"
+# sentence = "List comprehension is a powerful feature in Python"
 # s=("List comprehension is a powerful feature in Python")
 # long_word=[word for word in s.split()if len(word) > 4]
 # print(long_word)
 
 # Q8reverse each word in a given list of words
-#word = ("hello","world","python","rocks")
+# word = ("hello","world","python","rocks")
 # w =  ("hello","world","python","rocks")
 # x=[i for i in words[::-1]]
 # reversed_words=[i[::-1] for i in w]
@@ -112,3 +112,5 @@
 # d = {1: 'A', 2: 'B'}
 # print(d[2])
 
+
+print('annu')
