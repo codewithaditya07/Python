@@ -112,5 +112,34 @@
 # d = {1: 'A', 2: 'B'}
 # print(d[2])
 
+def dfs_path(graph, start, goal):
+    stack = [(start, [start])]
+    visited = set()
 
-print('annu')
+    while stack:
+        vertex, path = stack.pop()
+
+        if vertex == goal:
+            return path
+
+        if vertex not in visited:
+            visited.add(vertex)
+
+            for neighbor in graph.get(vertex, []):
+                if neighbor not in visited:
+                    stack.append((neighbor, path + [neighbor]))
+
+    return None
+
+
+# Example
+graph = {
+    'A': ['B', 'C'],
+    'B': ['D', 'E'],
+    'C': ['F'],
+    'D': [],
+    'E': ['F'],
+    'F': []
+}
+
+print(dfs_path(graph, 'A', 'F'))
