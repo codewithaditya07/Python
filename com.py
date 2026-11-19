@@ -112,34 +112,39 @@
 # d = {1: 'A', 2: 'B'}
 # print(d[2])
 
-def dfs_path(graph, start, goal):
-    stack = [(start, [start])]
-    visited = set()
+# def dfs_path(graph, start, goal):
+#     stack = [(start, [start])]
+#     visited = set()
 
-    while stack:
-        vertex, path = stack.pop()
+#     while stack:
+#         vertex, path = stack.pop()
 
-        if vertex == goal:
-            return path
+#         if vertex == goal:
+#             return path
 
-        if vertex not in visited:
-            visited.add(vertex)
+#         if vertex not in visited:
+#             visited.add(vertex)
 
-            for neighbor in graph.get(vertex, []):
-                if neighbor not in visited:
-                    stack.append((neighbor, path + [neighbor]))
+#             for neighbor in graph.get(vertex, []):
+#                 if neighbor not in visited:
+#                     stack.append((neighbor, path + [neighbor]))
 
-    return None
+#     return None
 
 
-# Example
-graph = {
-    'A': ['B', 'C'],
-    'B': ['D', 'E'],
-    'C': ['F'],
-    'D': [],
-    'E': ['F'],
-    'F': []
-}
+# # Example
+# graph = {
+#     'A': ['B', 'C'],
+#     'B': ['D', 'E'],
+#     'C': ['F'],
+#     'D': [],
+#     'E': ['F'],
+#     'F': []
+# }
 
-print(dfs_path(graph, 'A', 'F'))
+# print(dfs_path(graph, 'A', 'F'))
+
+def is_even(n):
+    return n % 2 == 0
+print(is_even(4))  # True
+print(is_even(7))  # False
