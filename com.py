@@ -148,3 +148,7 @@ def is_even(n):
     return n % 2 == 0
 print(is_even(4))  # True
 print(is_even(7))  # False
+print(is_even(8))  # True
+print(is_even(3))  # False
+print(is_even(44))  # True
+print(is_even(9))  # False
